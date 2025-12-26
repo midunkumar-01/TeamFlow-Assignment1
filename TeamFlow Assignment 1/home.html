@@ -1,0 +1,184 @@
+<html>
+<head>
+	<title> TEAMFLOW </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<header class = "team-navbar">
+	<h2 class ="team-logo"> TeamFlow </h2>
+	<nav>
+		<a href = "home.html" class ="active" > Home </a>
+		<a href = "product.html ">Our Product </a>
+		<a href = "blog.html"> Blog Posts </a>
+		
+	</nav>
+
+	<button class = "btn-primary" onclick="tryItFree()">Try it Free</button>
+</header>
+
+<!-- SECTION -->
+
+<section class = "team-hero">
+<div class = "team-hero-text">
+	<h1> Teamwork Made Effortless , Achieve Together  </h1>
+	<p> Ever struggled with budgets, gathering requirements, or keeping projects on track? TeamFlow handles it all form open charts and task assignment to time tracking and ongoing support. Lets turn chaos into collaboration.</p>
+
+</div>
+	<img src="images/Teamwork.jpg">
+</section>
+
+
+<section class = "feature-list">
+	<h2>Products Features in Teamflow</h2>
+	<ul>
+		<li><i class="fa-solid fa-list-check"></i> Task Managements with Team</li>
+		<li><i class="fa-solid fa-diagram-project"></i> Project Planning</li>
+		<li><i class="fa-solid fa-user-plus"></i> Team Collabaration</li>
+		<li><i class="fa-regular fa-alarm-clock"></i> Time Tracking</li>
+		<li><i class="fa-solid fa-hand-holding-hand"></i> Secure Sharing</li>
+		<li><i class="fa-solid fa-chart-line"></i> Report and Analysis</li>
+	</ul>
+</section>
+
+
+<!--HOW ITS WORKS -->
+<section class = "work-process">
+	<h2> Process of Working</h2>
+	<div class ="process-works">
+	<div class ="step">
+		<h3>1. SetProjects</h3> 
+		<p>"Create a New Project by your team mates." <br>
+		<strong>Extra Feature:</strong> Includes customizable templetes for quick setup and integration with version control system like git. </p>
+	</div>
+	<div class = "step">
+		<h3> 2. Assign Tasks </h3> 
+		<p> "By Assign task each members can easily Monitor and work."  <br>
+	    <strong>Extra Feature:</strong> Supports priority levels, deadlines and automated reminders to keep everyone on track.</p>		
+	</div>
+	<diV class = "step">
+		<h3> 3. Watch and Track </h3>
+		<p> "Each and every one in team can easily track the project progress." <br>
+		<strong>Extra Features:</strong> Offers visuals dashboards with charts and metrics for detailed insights into task completion and bottlenecks </p>
+		</diV>
+	<div class ="step"> 
+		<h3>4. Live Support </h3>
+		<p>"Its has instant live commmunication with team mates wheather it remote or onsites." <br>
+		<strong>Extra Features: </strong> Includes video conferencing , screen sharing ,and chat history for seamless collaboration. </p>
+	</div>
+	<div class ="step"> 
+		<h3>5. Structure Report and Documentation </h3>
+		<p> "It Analysis progress and we get structure report and Documentation" <br>
+		<strong>Extra Features: </strong> Auto-Generates PDF exports, integrates with cloud storage and provides audit trails for compliance. </p>
+	</div>
+	</div>
+</section>
+
+<!--USE CASES-->
+<section class = "use-cases">
+	<h2> Who Is It For?</h2>
+	<div class = "use-grid">
+	<div> 
+		<h4><i class="fa-regular fa-circle-play"></i> Emerging Startups</h4>
+		<p> Emerging startups can easily handles the deadlines and communicate with members instantly and live </P>
+	</div>
+	<div> 
+		<h4><i class="fa-solid fa-people-group"></i> Agencies Managing multiple Clients</h4>
+		<p>Does'nt have any Time Managements and prioritization? Here We connected,collaborated and track the progres each other.</p>
+	 </div>
+	<div> 
+		<h4><i class="fa-solid fa-house-laptop"></i> Remote Working Team</h4>
+		<p>Can't able to connect with colleagues? TeamFLow is beeter Saas  tools for remote working team </p> 
+	</div>
+	</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class = "testimonials">
+	<h2> From Our Community</h2>
+	<div class = "review-grid">
+		<div>"TeamFLow Software improved our team productivity instantly." -- Ajaj,Team lead </div>
+		<div> "As a remote team lead, this is the best tools I have found for keeping everyone aligned." -- Catherine,Co-Founder </div>
+	</div>
+</section>
+
+<!--Pricing-->
+
+<section class ="plan-pricing" id = "plan">
+	<h2>Choose Your Plan</h2>
+	<div class = "plan-grid">
+		<div class = "price-card">
+			<h3>Starter</h3>
+			<p>₹99/month</p>
+			<ul>
+				<li>*Manageing 5 Tasks </li>
+				<li>*Enageing 1 live Project</li>
+				<li>*Limited Customers Support</li>
+			</ul>
+		<button onclick="choosePlan('Starter')"> Starter</button>
+		</div>
+	</div>
+
+	<div class = "price-card popular">
+		<span class = "badge">Popular</span>
+		<h3>Pro</h3>
+		<p>₹499/month</p>
+		<ul>
+			<li>*Unlimited Tasks</li>
+			<li>*Unlimited Projects</li>
+			<li>*Unlimited Customers Support</li>
+			<li>*Time Tracking</li>
+		</ul>
+		<button onclick="choosePlan('Pro')">Pro</button>
+	</div>
+
+	<div class = "price-card">
+		<h3>Enterprise</h3>
+		<p>₹999/month</p>
+		<ul>
+			<li>*Advanced Security</li>
+			<li>*Custom Integrations</li>
+			<li>*Priority Support</li>
+			<li>*Global Connection</li>
+		</ul>
+		<button onclick="choosePlan('Enterprise')">Enterprise</button>
+	</div>
+
+
+
+<!--Contact-->
+
+<section>
+	<p>
+		Website:
+		<a href = "https://www.teamflow.com" target = "_blank">
+			www.teamflowdeliver.com
+		</a>
+	</p>
+
+	<p>
+		Email:
+		<a href = "mailto:info@teamflow.com">
+			info@teamflowdeliver.com
+		</a>
+	</p>
+
+	<p>
+		Contact:
+		<a href = "tel: +1234567890">
+			+91- 1234567890
+		</a>
+	</p>
+</section>
+
+<!--FOOTER-->
+<footer>
+	<p>@ 2025 TeamFlow. All rights reserved</p>
+</footer>
+
+<script src ="app.js"></script>
+</body>
+<html>
